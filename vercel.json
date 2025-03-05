@@ -8,14 +8,9 @@
   ],
   "routes": [
     {
-      "src": "/vid",
+      "src": "/api/handle-m3u8",
       "methods": ["GET"],
-      "headers": {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "GET",
-        "Access-Control-Allow-Headers": "Content-Type"
-      },
-      "dest": "/api/handle-m3u8"
+      "dest": "/api/handle-m3u8.js"
     }
   ]
 }

@@ -8,7 +8,7 @@
   ],
   "routes": [
     {
-      "src": "/video",
+      "src": "/video.js",
       "methods": ["GET"],
       "dest": "/video.js"
     }

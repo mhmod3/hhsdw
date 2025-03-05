@@ -8,9 +8,9 @@
   ],
   "routes": [
     {
-      "src": "/api/handle-m3u8",
+      "src": "/video",
       "methods": ["GET"],
-      "dest": "/api/handle-m3u8.js"
+      "dest": "/video.js"
     }
   ]
 }
